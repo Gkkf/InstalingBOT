@@ -1,0 +1,44 @@
+﻿<Window x:Class="InstalingBOT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InstalingBOT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="400"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen">
+    <Border CornerRadius="20" BorderThickness="10" BorderBrush="#222C30">
+        <Grid>
+            <Grid.Background>
+                <SolidColorBrush Color="#222C30"/>
+        </Grid.Background>
+            <Label Content="InstalingBOT" HorizontalAlignment="Center" FontSize="30" Foreground="AntiqueWhite"/>
+
+
+            <Button Content="Rozpocznij sesję" Cursor="Hand" Width="200" Height="100" Click="Start_session" Foreground="AntiqueWhite"  Background="#0072AB" BorderThickness="2">
+                    <Button.Style>
+                        <Style TargetType="Button">
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border CornerRadius="10" BorderThickness="2" Background="{TemplateBinding Background}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Button.Style>
+                <Button.Effect>
+                    <DropShadowEffect Color="White" BlurRadius="10" Direction="315" ShadowDepth="2" Opacity="0.3" />
+                </Button.Effect>
+            </Button>
+
+            <Label Content="By DeveloperPortal" VerticalAlignment="Bottom" FontStyle="Italic" Foreground="AntiqueWhite"/>
+
+        </Grid>
+    </Border>
+</Window>
