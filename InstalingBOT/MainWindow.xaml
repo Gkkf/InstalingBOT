@@ -10,35 +10,7 @@
         AllowsTransparency="True"
         Background="Transparent"
         WindowStartupLocation="CenterScreen">
-    <Border CornerRadius="20" BorderThickness="10" BorderBrush="#222C30">
-        <Grid>
-            <Grid.Background>
-                <SolidColorBrush Color="#222C30"/>
-        </Grid.Background>
-            <Label Content="InstalingBOT" HorizontalAlignment="Center" FontSize="30" Foreground="AntiqueWhite"/>
-
-
-            <Button Content="Rozpocznij sesję" Cursor="Hand" Width="200" Height="100" Click="Start_session" Foreground="AntiqueWhite"  Background="#0072AB" BorderThickness="2">
-                    <Button.Style>
-                        <Style TargetType="Button">
-                            <Setter Property="Template">
-                                <Setter.Value>
-                                    <ControlTemplate TargetType="Button">
-                                        <Border CornerRadius="10" BorderThickness="2" Background="{TemplateBinding Background}">
-                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                        </Border>
-                                    </ControlTemplate>
-                                </Setter.Value>
-                            </Setter>
-                        </Style>
-                    </Button.Style>
-                <Button.Effect>
-                    <DropShadowEffect Color="White" BlurRadius="10" Direction="315" ShadowDepth="2" Opacity="0.3" />
-                </Button.Effect>
-            </Button>
-
-            <Label Content="By DeveloperPortal" VerticalAlignment="Bottom" FontStyle="Italic" Foreground="AntiqueWhite"/>
-
-        </Grid>
-    </Border>
+         
+        //Join discord to buy source code: https://discord.gg/T4uRnTb5JV
+         
 </Window>
