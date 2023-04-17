@@ -8,7 +8,6 @@ namespace InstalingBOT
 {
     internal class UserConfig
     {
-        public static string login = "337833376";
-        public static string password = "hafkt";
+        //Join discord to buy source code: https://discord.gg/T4uRnTb5JV
     }
 }
