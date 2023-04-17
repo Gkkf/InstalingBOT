@@ -14,13 +14,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml.Linq;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.DevTools.V111.IndexedDB;
-using OpenQA.Selenium.Edge;
-using OpenQA.Selenium.Interactions;
-using OpenQA.Selenium.Support;
-using OpenQA.Selenium.Support.UI;
 
 namespace InstalingBOT
 {
